@@ -29,7 +29,7 @@ Resources:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
-            Path: /studentget
+            Path: /studentget/{id}
             Method: get
 
   HelloWorldFunction2:
@@ -49,7 +49,7 @@ Resources:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
-            Path: /studenpost
+            Path: /studentpost
             Method: post
 
 
